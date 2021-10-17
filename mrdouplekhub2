@@ -1,0 +1,18 @@
+wait(0.1)
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Wait to loading Script";
+ Text = "Wait...";
+ Icon = "";
+ Duration = 5;
+ Callback = NotificationBindable;
+})
+wait(3)
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Script has loaded";
+ Text = "Khoa pro vl - welcome to script remake by KoFu nhung t an cap";
+ Icon = "";
+ Duration = 5;
+ Callback = NotificationBindable;
+})
+wait(0.1)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/krymmirai/krym/main/zerohub2",true))()
