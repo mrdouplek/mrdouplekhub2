@@ -15,4 +15,4 @@ game.StarterGui:SetCore("SendNotification",  {
  Callback = NotificationBindable;
 })
 wait(0.1)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/krymmirai/krym/main/zerohub2",true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mrdouplek/mrdoupkehub3/39389b282b019e6c8c670dd01263a6c887f0844c/mrdouplekhub3?token=AWDBANDAXDKUSLP6O6EIZWDBNQEOE",true))()
